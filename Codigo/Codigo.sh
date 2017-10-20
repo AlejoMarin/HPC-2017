@@ -18,7 +18,7 @@ for i in {1..10}
 do
 	for j in {1..20}
 	do
-		./build/global.out ../../../images/Balon.jpg >> times.txt
+		./build/global.out ../images/Balon.jpg >> times.txt
 	done
 	echo "Balon.jpg"
 done
