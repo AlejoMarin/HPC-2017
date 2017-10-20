@@ -9,6 +9,7 @@ Para compilar:
     3. Escribir en el terminal:
 
 cmake -DCUDA_USE_STATIC_CUDA_RUNTIME=OFF ..
+
 make
 
 Esto generará el ejecutable Image.out
@@ -21,4 +22,4 @@ Local
 
 En la carpeta build escribir lo siguiente:
 
-./Image.out Balon
+./Image.out ../../img/Balon.jpg
